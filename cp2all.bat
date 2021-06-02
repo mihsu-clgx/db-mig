@@ -1,0 +1,12 @@
+cp %1 C:\mig\dump_IDIRS\
+cp %1 C:\mig\dump_Kofax_RPA_Logs\
+cp %1 C:\mig\dump_TaxServices\
+cp %1 C:\mig\dump_WebHarvesting_BuildingPermit\
+cp %1 C:\mig\dump_Webharvesting_Commercialtax\
+cp %1 C:\mig\dump_WebHarvesting_Control\
+cp %1 C:\mig\dump_WebHarvesting_CoreLogicAsia\
+cp %1 C:\mig\dump_Webharvesting_Criminal\
+cp %1 C:\mig\dump_WebHarvesting_EFX\
+cp %1 C:\mig\dump_WebHarvesting_SafeRentBulk\
+cp %1 C:\mig\dump_WebHarvesting_TaxRoll\
+cp %1 C:\mig\dump_WebHarvesting_Transaction\

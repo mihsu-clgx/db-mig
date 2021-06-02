@@ -1,0 +1,1 @@
+echo %cd% |sed "s/^.*dump_//"
