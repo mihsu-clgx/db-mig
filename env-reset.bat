@@ -1,0 +1,14 @@
+@SET ap=%1
+@SET ev=%2
+@SET SRCHOST=
+@SET TOHOST=
+@SET MYPW=
+@SET ADMIN=
+@SET FPATH=
+SET envfile=env-%ap%-%ev%.bat
+@call %envfile%
+@ECHO %SRCHOST%
+@ECHO %TOHOST%
+@ECHO %MYPW%
+@ECHO %ADMIN%
+@ECHO %FPATH%

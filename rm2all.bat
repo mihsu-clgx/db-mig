@@ -1,0 +1,52 @@
+DEL C:\mig\dump_IDIRS\*.lst
+DEL C:\mig\dump_Kofax_RPA_Logs\*.lst
+DEL C:\mig\dump_TaxServices\*.lst
+DEL C:\mig\dump_WebHarvesting_BuildingPermit\*.lst
+DEL C:\mig\dump_Webharvesting_Commercialtax\*.lst
+DEL C:\mig\dump_WebHarvesting_Control\*.lst
+DEL C:\mig\dump_WebHarvesting_CoreLogicAsia\*.lst
+DEL C:\mig\dump_Webharvesting_Criminal\*.lst
+DEL C:\mig\dump_WebHarvesting_EFX\*.lst
+DEL C:\mig\dump_WebHarvesting_SafeRentBulk\*.lst
+DEL C:\mig\dump_WebHarvesting_TaxRoll\*.lst
+DEL C:\mig\dump_WebHarvesting_Transaction\*.lst
+
+DEL C:\mig\dump_IDIRS\*.log
+DEL C:\mig\dump_Kofax_RPA_Logs\*.log
+DEL C:\mig\dump_TaxServices\*.log
+DEL C:\mig\dump_WebHarvesting_BuildingPermit\*.log
+DEL C:\mig\dump_Webharvesting_Commercialtax\*.log
+DEL C:\mig\dump_WebHarvesting_Control\*.log
+DEL C:\mig\dump_WebHarvesting_CoreLogicAsia\*.log
+DEL C:\mig\dump_Webharvesting_Criminal\*.log
+DEL C:\mig\dump_WebHarvesting_EFX\*.log
+DEL C:\mig\dump_WebHarvesting_SafeRentBulk\*.log
+DEL C:\mig\dump_WebHarvesting_TaxRoll\*.log
+DEL C:\mig\dump_WebHarvesting_Transaction\*.log
+
+DEL C:\mig\dump_IDIRS\*.csv
+DEL C:\mig\dump_Kofax_RPA_Logs\*.csv
+DEL C:\mig\dump_TaxServices\*.csv
+DEL C:\mig\dump_WebHarvesting_BuildingPermit\*.csv
+DEL C:\mig\dump_Webharvesting_Commercialtax\*.csv
+DEL C:\mig\dump_WebHarvesting_Control\*.csv
+DEL C:\mig\dump_WebHarvesting_CoreLogicAsia\*.csv
+DEL C:\mig\dump_Webharvesting_Criminal\*.csv
+DEL C:\mig\dump_WebHarvesting_EFX\*.csv
+DEL C:\mig\dump_WebHarvesting_SafeRentBulk\*.csv
+DEL C:\mig\dump_WebHarvesting_TaxRoll\*.csv
+DEL C:\mig\dump_WebHarvesting_Transaction\*.csv
+
+DEL C:\mig\dump_IDIRS\*.zip
+DEL C:\mig\dump_Kofax_RPA_Logs\*.zip
+DEL C:\mig\dump_TaxServices\*.zip
+DEL C:\mig\dump_WebHarvesting_BuildingPermit\*.zip
+DEL C:\mig\dump_Webharvesting_Commercialtax\*.zip
+DEL C:\mig\dump_WebHarvesting_Control\*.zip
+DEL C:\mig\dump_WebHarvesting_CoreLogicAsia\*.zip
+DEL C:\mig\dump_Webharvesting_Criminal\*.zip
+DEL C:\mig\dump_WebHarvesting_EFX\*.zip
+DEL C:\mig\dump_WebHarvesting_SafeRentBulk\*.zip
+DEL C:\mig\dump_WebHarvesting_TaxRoll\*.zip
+DEL C:\mig\dump_WebHarvesting_Transaction\*.zip
+

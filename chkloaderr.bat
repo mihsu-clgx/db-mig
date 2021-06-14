@@ -1,4 +1,4 @@
-call setdb.bat
+@call setdb.bat
 @egrep -i "ROWCNT|ERROR" load-%db%.log |grep -v "call load1tbl.bat" | sed "s/^.*from//;s/;\"//"
 @echo num files to load:
 @dir *.csv|grep -v " 0 "|grep -v "File(s)"  | grep ".csv" | wc -l
