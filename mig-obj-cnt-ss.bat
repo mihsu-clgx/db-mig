@@ -1,10 +1,10 @@
 @CALL setenv.bat
 @SET db=%1
 @SET host=%SRCHOST%
-@REM SET host=EDGQN1VPSQLKP01
-@REM SET db=WebHarvesting_Control
-@REM SET host=EDGQN1VPLAFST03
-@REM SET db=taxservices
+@REM SET host=
+@REM SET db=
+@REM SET host=
+@REM SET db=
 
 @sqlcmd -S %host% -d %db% -h -1 -Q "SET NOCOUNT ON; select 'table',lower(table_name) from information_schema.tables where table_schema='dbo' and table_type='BASE TABLE' order by 2" | awk "{print $1 \",\" $2}" | sort > %db%-tbl-ss.lst
 @sqlcmd -S %host% -d %db% -h -1 -Q "SET NOCOUNT ON; select 'view',lower(table_name) from information_schema.views where table_schema='dbo'  order by 2"  | awk "{print $1 \",\" $2}"  | sort > %db%-view-ss.lst

@@ -1,10 +1,7 @@
 @CALL setenv.bat
 @SET db=%1
 @SET host=%SRCHOST%
-@REM SET host=EDGQN1VPSQLKP01
-@REM SET db=WebHarvesting_Control
-@REM SET host=EDGQN1VPLAFST03
-@REM SET db=TaxServices
+
 
 @REM echo "start count %db% "
 @echo SET NOCOUNT ON; > %db%-tbl-cnt-ss.tmp

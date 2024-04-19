@@ -1,8 +1,0 @@
-@ECHO ENV = WebHarvesting SBX
-@REM Source
-@SET SRCHOST=EDGQN1VPSQLKP01
-@REM SBX
-@SET TOHOST=10.39.41.215
-@SET ADMIN=kofaxadmin
-@SET MYLP=wh-ts-sbx
-@SET FPATH=C:\\mig

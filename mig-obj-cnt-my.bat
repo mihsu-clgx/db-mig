@@ -4,15 +4,7 @@
 @REM SET host=%1
 @REM SET db=%2
 
-@REM to sbx in GCP
-@REM SET TOHOST=10.39.40.183
-@REM DEV 
-@REM SET TOHOST=10.46.184.249
-@REM SBX
-@REM SET TOHOST=10.39.41.215
-@REM SET db=taxservices
-@REM SET ADMIN=tsadmin
-@REM SET MYPW=Greatwatercak3g
+
 
 @mysql --login-path=%MYLP%  information_schema  -sNe "select 'table',lower(table_name) from information_schema.tables where table_schema='%db%' and table_type='BASE TABLE' order by 2" | awk "{print $1 \",\" $2}" | sort > %db%-tbl-my.lst
 
